@@ -6,7 +6,7 @@ import Navbar from "../components/shared/navbar/Navbar";
 
 const Main = () => {
   return (
-    <div>
+    <div className="font-Inter">
       <Navbar></Navbar>
       <Outlet></Outlet>
       <Footer></Footer>

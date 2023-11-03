@@ -12,6 +12,12 @@ const Navbar = () => {
       <li>
         <Link to="/about">About</Link>
       </li>
+      <li>
+        <Link to="/signIn">Log In</Link>
+      </li>
+      <li>
+        <Link to="/signUp"> Register </Link>
+      </li>
     </>
   );
 
@@ -51,7 +57,7 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{navItem}</ul>
         </div>
         <div className="navbar-end">
-          <button className="btn btn-outline text-[#FFFFFF] hover:border-[#FF3811] hover:text-[#FFFFFF]  hover:bg-[#FF3811]  border-[#FF3811] ">
+          <button className="btn btn-outline text-[#FFFFFF]   hover:border-[#FF3811] hover:text-textWhite  hover:bg-[#FF3811]  border-[#FF3811] ">
             Appointment{" "}
           </button>
         </div>
